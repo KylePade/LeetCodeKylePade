@@ -10,7 +10,7 @@ const PROBLEM_ID: string = "3392";
 
 describe("TestMain===" + PROBLEM_ID, () => {
     dotenv.config();
-    let problemFolder: string = (process.env.PROBLEM_FOLDER && process.env.PROBLEM_FOLDER.length > 0) ? process.env.PROBLEM_FOLDER : "problems";
+    let problemFolder: string = (process.env.PROBLEM_FOLDER && process.env.PROBLEM_FOLDER.length > 0) ? process.env.PROBLEM_FOLDER : "problemsKylePade";
     let testCasePath: string = `${problemFolder}/${problemFolder}_${PROBLEM_ID}/testcase`;
     let solPath: string = `${problemFolder}/${problemFolder}_${PROBLEM_ID}/solution.ts`;
     if (!fs.existsSync(testCasePath)) {
