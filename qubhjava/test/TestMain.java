@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 // import problems.problems_3392.Solution;
 // import premiums.premiums_1056.Solution;
 import org.testng.util.Strings;
-import problemsKylePade.problemsKylePade_1298.Solution;
+import problemsKylePade.problemsKylePade_3403.Solution;
 import qubhjava.Testcase;
 
 import java.io.IOException;
@@ -23,7 +23,7 @@ import java.util.List;
 public class TestMain {
 
     private static final Logger log = LoggerFactory.getLogger(TestMain.class);
-    private static final String PROBLEM_ID = "1298";
+    private static final String PROBLEM_ID = "3403";
 
     private Testcase[] loadTestcases() throws IOException {
         String problemFolder = null;
