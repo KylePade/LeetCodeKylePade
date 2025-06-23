@@ -330,6 +330,7 @@ members = [
 	"problemsKylePade/problemsKylePade_3085",
 	"problemsKylePade/problemsKylePade_2138",
 	"problemsKylePade/problemsKylePade_2081",
+	"problemsKylePade/problemsKylePade_2200",
 ]
 
 [package]
@@ -682,3 +683,4 @@ solution_3443 = { path = "problemsKylePade/problemsKylePade_3443", features = ["
 solution_3085 = { path = "problemsKylePade/problemsKylePade_3085", features = ["solution_3085"] }
 solution_2138 = { path = "problemsKylePade/problemsKylePade_2138", features = ["solution_2138"] }
 solution_2081 = { path = "problemsKylePade/problemsKylePade_2081", features = ["solution_2081"] }
+solution_2200 = { path = "problemsKylePade/problemsKylePade_2200", features = ["solution_2200"] }
